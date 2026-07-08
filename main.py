@@ -8,7 +8,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score, confusion_m
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 
-df = pd.read_csv("C:/Users/kotla/OneDrive/Desktop/Prime_notes/Loan_approval_project/loan_approval_data.csv")
+df = pd.read_csv("loan_approval_data.csv")
 
 numerical_cols = df.select_dtypes(include="number").columns
 categorical_cols = df.select_dtypes(include="object").columns
