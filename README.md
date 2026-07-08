@@ -54,6 +54,7 @@ Loan-Approval-Prediction/
 ├── loan_approval_data.csv
 ├── README.md
 └── requirements.txt
+└── .gitignore
 ```
 
 ## Installation
